@@ -1,0 +1,6 @@
+ 
+
+update house_deal  set area_type_id=1 where ceil(area)<=65 
+update house_deal  set area_type_id=2 where ceil(area)>=66 and ceil(area)<=80 
+update house_deal  set area_type_id=3 where ceil(area)>=81 and ceil(area)<=100
+ 
